@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktyczne tutoriale - ZroZoom AI</title>
+    <meta name="description" content="Praktyczne tutoriale krok po kroku, które pomogą Ci wykorzystać sztuczną inteligencję w codziennych zadaniach. Naucz się tworzyć aplikacje, generować treści i automatyzować pracę.">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&family=Fira+Code&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">ZroZoom <span>AI</span></a>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Strona główna</a></li>
+                    <li class="nav-item"><a href="beginners.html" class="nav-link">AI dla początkujących</a></li>
+                    <li class="nav-item"><a href="tutorials.html" class="nav-link">Praktyczne tutoriale</a></li>
+                    <li class="nav-item"><a href="tools.html" class="nav-link">Narzędzia AI</a></li>
+                    <li class="nav-item"><a href="dictionary.html" class="nav-link">Słownik pojęć</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">O nas</a></li>
+                    <li class="nav-item"><a href="resources.html" class="nav-link">Zasoby</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Praktyczne tutoriale</h1>
+            <p>Krok po kroku naucz się wykorzystywać sztuczną inteligencję w praktyce. Twórz aplikacje, generuj treści i automatyzuj codzienne zadania.</p>
+        </div>
+    </section>
+
+    <!-- Tutorials Filters -->
+    <section class="page-content">
+        <div class="container">
+            <div class="blog-filters">
+                <div class="filter-group">
+                    <span class="filter-label">Poziom trudności:</span>
+                    <select class="filter-select" id="difficulty-filter">
+                        <option value="all">Wszystkie</option>
+                        <option value="beginner">Początkujący</option>
+                        <option value="intermediate">Średniozaawansowany</option>
+                        <option value="advanced">Zaawansowany</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <span class="filter-label">Kategoria:</span>
+                    <select class="filter-select" id="category-filter">
+                        <option value="all">Wszystkie</option>
+                        <option value="no-code">Bez kodowania</option>
+                        <option value="content">Tworzenie treści</option>
+                        <option value="automation">Automatyzacja</option>
+                        <option value="image">Grafika i obrazy</option>
+                        <option value="audio">Audio i muzyka</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <span class="filter-label">Narzędzie:</span>
+                    <select class="filter-select" id="tool-filter">
+                        <option value="all">Wszystkie</option>
+                        <option value="chatgpt">ChatGPT</option>
+                        <option value="gemini">Google Gemini</option>
+                        <option value="midjourney">Midjourney</option>
+                        <option value="stable-diffusion">Stable Diffusion</option>
+                        <option value="stable-audio">Stable Audio</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- No-Code Tutorials -->
+    <section class="page-content" id="no-code">
+        <div class="container">
+            <h2 class="section-title">Tworzenie bez kodowania</h2>
+            <div class="featured-grid">
+                <div class="card" data-difficulty="beginner" data-category="no-code" data-tool="gemini">
+                    <img src="images/gemini-app.jpg" alt="Tworzenie aplikacji z Gemini" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Tworzenie prostych aplikacji dzięki Gemini</h3>
+                        <p class="card-text">Krok po kroku naucz się tworzyć proste aplikacje bez znajomości programowania, wykorzystując Google Gemini.</p>
+                        <div class="card-footer">
+                            <span class="card-date">31 marca 2025</span>
+                            <a href="articles/tutorials/gemini-app.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-difficulty="beginner" data-category="no-code" data-tool="chatgpt">
+                    <img src="images/chatbot.jpg" alt="Tworzenie chatbota" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Jak stworzyć własnego chatbota bez kodowania</h3>
+                        <p class="card-text">Dowiedz się, jak stworzyć prostego chatbota do obsługi klienta lub automatyzacji zadań, bez znajomości programowania.</p>
+                        <div class="card-footer">
+                            <span class="card-date">20 marca 2025</span>
+                            <a href="articles/tutorials/chatbot-no-code.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-difficulty="intermediate" data-category="no-code" data-tool="chatgpt">
+                    <img src="images/personal-assistant.jpg" alt="Asystent osobisty" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Stwórz własnego asystenta AI do konkretnych zadań</h3>
+                        <p class="card-text">Naucz się tworzyć spersonalizowanego asystenta AI, który pomoże Ci w codziennych zadaniach i zwiększy Twoją produktywność.</p>
+                        <div class="card-footer">
+                            <span class="card-date">15 marca 2025</span>
+                            <a href="articles/tutorials/personal-assistant.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Creation Tutorials -->
+    <section class="page-content" id="content">
+        <div class="container">
+            <h2 class="section-title">Tworzenie treści</h2>
+            <div class="featured-grid">
+                <div class="card" data-difficulty="beginner" data-category="content" data-tool="chatgpt">
+                    <img src="images/blog-writing.jpg" alt="Pisanie bloga" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Jak pisać lepsze artykuły blogowe z pomocą AI</h3>
+                        <p class="card-text">Poznaj techniki wykorzystania AI do tworzenia angażujących artykułów blogowych, od researchu po edycję.</p>
+                        <div class="card-footer">
+                            <span class="card-date">10 marca 2025</span>
+                            <a href="articles/tutorials/blog-writing.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-difficulty="intermediate" data-category="content" data-tool="gemini">
+                    <img src="images/social-media.jpg" alt="Treści na social media" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Tworzenie treści na social media z pomocą AI</h3>
+                        <p class="card-text">Naucz się tworzyć angażujące posty na social media, wykorzystując możliwości sztucznej inteligencji.</p>
+                        <div class="card-footer">
+                            <span class="card-date">5 marca 2025</span>
+                            <a href="articles/tutorials/social-media-content.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-difficulty="beginner" data-category="content" data-tool="chatgpt">
+                    <img src="images/email-writing.jpg" alt="Pisanie e-maili" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Jak pisać profesjonalne e-maile z pomocą AI</h3>
+                        <p class="card-text">Dowiedz się, jak wykorzystać AI do tworzenia skutecznych e-maili biznesowych i marketingowych.</p>
+                        <div class="card-footer">
+                            <span class="card-date">1 marca 2025</span>
+                            <a href="articles/tutorials/email-writing.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Generation Tutorials -->
+    <section class="page-content" id="image">
+        <div class="container">
+            <h2 class="section-title">Grafika i obrazy</h2>
+            <div class="featured-grid">
+                <div class="card" data-difficulty="beginner" data-category="image" data-tool="midjourney">
+                    <img src="images/midjourney.jpg" alt="Generowanie obrazów w Midjourney" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Generowanie obrazów w Midjourney - przewodnik dla początkujących</h3>
+                        <p class="card-text">Poznaj podstawy generowania obrazów w Midjourney, od tworzenia konta po zaawansowane prompty.</p>
+                        <div class="card-footer">
+                            <span class="card-date">27 lutego 2025</span>
+                            <a href="articles/tutorials/midjourney-basics.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-difficulty="intermediate" data-category="image" data-tool="stable-diffusion">
+                    <img src="images/stable-diffusion.jpg" alt="Stable Diffusion" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Tworzenie spójnych serii obrazów w Stable Diffusion</h3>
+                        <p class="card-text">Naucz się tworzyć spójne stylistycznie serie obrazów za pomocą Stable Diffusion.</p>
+                        <div class="card-footer">
+                            <span class="card-date">20 lutego 2025</span>
+                            <a href="articles/tutorials/stable-diffusion-series.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-difficulty="beginner" data-category="image" data-tool="chatgpt">
+                    <img src="images/chatgpt-images.jpg" alt="Generowanie obrazów w ChatGPT" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Generowanie obrazów z tekstem w ChatGPT</h3>
+                        <p class="card-text">Dowiedz się, jak wykorzystać ChatGPT do generowania obrazów z tekstem i jak tworzyć efektywne prompty.</p>
+                        <div class="card-footer">
+                            <span class="card-date">27 marca 2025</span>
+                            <a href="articles/tutorials/chatgpt-images.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audio Tutorials -->
+    <section class="page-content" id="audio">
+        <div class="container">
+            <h2 class="section-title">Audio i muzyka</h2>
+            <div class="featured-grid">
+                <div class="card" data-difficulty="intermediate" data-category="audio" data-tool="stable-audio">
+                    <img src="images/stable-audio.jpg" alt="Generowanie muzyki w Stable Audio" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Generowanie muzyki w Stable Audio</h3>
+                        <p class="card-text">Poznaj możliwości Stable Audio - narzędzia do generowania muzyki przy pomocy sztucznej inteligencji.</p>
+                        <div class="card-footer">
+                            <span class="card-date">28 marca 2025</span>
+                            <a href="articles/tutorials/stable-audio.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-difficulty="beginner" data-category="audio" data-tool="chatgpt">
+                    <img src="images/text-to-speech.jpg" alt="Zamiana tekstu na mowę" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Jak wykorzystać AI do zamiany tekstu na mowę</h3>
+                        <p class="card-text">Dowiedz się, jak wykorzystać narzędzia AI do tworzenia naturalnie brzmiących nagrań głosowych z tekstu.</p>
+                        <div class="card-footer">
+                            <span class="card-date">15 lutego 2025</span>
+                            <a href="articles/tutorials/text-to-speech.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-difficulty="advanced" data-category="audio" data-tool="chatgpt">
+                    <img src="images/podcast.jpg" alt="Tworzenie podcastu" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Tworzenie podcastu z pomocą AI - od scenariusza po produkcję</h3>
+                        <p class="card-text">Kompleksowy przewodnik po wykorzystaniu AI w tworzeniu podcastów, od pisania scenariusza po edycję dźwięku.</p>
+                        <div class="card-footer">
+                            <span class="card-date">10 lutego 2025</span>
+                            <a href="articles/tutorials/podcast-ai.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="page-content" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projekty czytelników</h2>
+            <div class="featured-grid">
+                <div class="card">
+                    <img src="images/project1.jpg" alt="Projekt czytelnika 1" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Asystent do nauki języków obcych</h3>
+                        <p class="card-text">Projekt Anny K., która stworzyła spersonalizowanego asystenta do nauki języka hiszpańskiego z pomocą ChatGPT.</p>
+                        <div class="card-footer">
+                            <span class="card-date">25 lutego 2025</span>
+                            <a href="articles/projects/language-assistant.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/project2.jpg" alt="Projekt czytelnika 2" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Generator quizów edukacyjnych</h3>
+                        <p class="card-text">Projekt Marka W., który stworzył narzędzie do automatycznego generowania quizów edukacyjnych dla nauczycieli.</p>
+                        <div class="card-footer">
+                            <span class="card-date">18 lutego 2025</span>
+                            <a href="articles/projects/quiz-generator.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/project3.jpg" alt="Projekt czytelnika 3" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Wirtualna galeria sztuki</h3>
+                        <p class="card-text">Projekt Julii T., która stworzyła wirtualną galerię sztuki generowanej przez AI, z opisami i historią każdego dzieła.</p>
+                        <div class="card-footer">
+                            <span class="card-date">5 lutego 2025</span>
+                            <a href="articles/projects/virtual-gallery.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Submit Project -->
+    <section class="community">
+        <div class="container">
+            <div class="community-content">
+                <h2 class="section-title">Podziel się swoim projektem</h2>
+                <p>Stworzyłeś coś ciekawego z pomocą AI? Podziel się swoim projektem z naszą społecznością! Najciekawsze projekty zostaną opublikowane na naszej stronie.</p>
+                <div class="community-buttons">
+                    <a href="submit-project.html" class="btn btn-primary">Zgłoś swój projekt</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">ZroZoom <span>AI</span></div>
+                    <p>Blog edukacyjny poświęcony sztucznej inteligencji dla początkujących. Poznaj podstawy AI, praktyczne zastosowania i najnowsze narzędzia.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Nawigacja</h3>
+                    <ul>
+                        <li><a href="index.html">Strona główna</a></li>
+                        <li><a href="beginners.html">AI dla początkujących</a></li>
+                        <li><a href="tutorials.html">Praktyczne tutoriale</a></li>
+                        <li><a href="tools.html">Narzędzia AI</a></li>
+                        <li><a href="dictionary.html">Słownik pojęć</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">O nas</a></li>
+                        <li><a href="resources.html">Zasoby</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Zasoby</h3>
+                    <ul>
+                        <li><a href="resources.html#ebooks">E-booki</a></li>
+                        <li><a href="resources.html#templates">Szablony promptów</a></li>
+                        <li><a href="resources.html#checklists">Listy kontrolne</a></li>
+                        <li><a href="resources.html#external">Zewnętrzne zasoby</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Zapisz się do naszego newslettera, aby otrzymywać najnowsze artykuły i aktualizacje.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Twój adres e-mail" class="newsletter-input" required>
+                        <button type="submit" class="newsletter-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p>&copy; 2025 ZroZoom AI. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

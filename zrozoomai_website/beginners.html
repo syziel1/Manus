@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI dla początkujących - ZroZoom AI</title>
+    <meta name="description" content="Poznaj podstawy sztucznej inteligencji. Przewodnik dla początkujących, który pomoże Ci zrozumieć AI i rozpocząć swoją przygodę z tą technologią.">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&family=Fira+Code&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">ZroZoom <span>AI</span></a>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Strona główna</a></li>
+                    <li class="nav-item"><a href="beginners.html" class="nav-link">AI dla początkujących</a></li>
+                    <li class="nav-item"><a href="tutorials.html" class="nav-link">Praktyczne tutoriale</a></li>
+                    <li class="nav-item"><a href="tools.html" class="nav-link">Narzędzia AI</a></li>
+                    <li class="nav-item"><a href="dictionary.html" class="nav-link">Słownik pojęć</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">O nas</a></li>
+                    <li class="nav-item"><a href="resources.html" class="nav-link">Zasoby</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">AI dla początkujących</h1>
+            <p>Rozpocznij swoją przygodę ze sztuczną inteligencją. Poznaj podstawowe pojęcia, rodzaje AI i praktyczne zastosowania.</p>
+        </div>
+    </section>
+
+    <!-- Learning Path -->
+    <section class="page-content" id="learning-path">
+        <div class="container">
+            <h2 class="section-title">Ścieżka nauki</h2>
+            <div class="path-container learning-path">
+                <p>Nasza ścieżka nauki przeprowadzi Cię od podstaw do praktycznych zastosowań AI. Kliknij na poszczególne kroki, aby dowiedzieć się więcej.</p>
+                
+                <div class="path-steps">
+                    <div class="path-step active" id="step-1">
+                        <div class="step-number">1</div>
+                        <div class="step-title">
+                            <h3>Czym jest sztuczna inteligencja?</h3>
+                        </div>
+                    </div>
+                    <div class="path-step" id="step-2">
+                        <div class="step-number">2</div>
+                        <div class="step-title">
+                            <h3>Rodzaje sztucznej inteligencji</h3>
+                        </div>
+                    </div>
+                    <div class="path-step" id="step-3">
+                        <div class="step-number">3</div>
+                        <div class="step-title">
+                            <h3>Narzędzia AI dla każdego</h3>
+                        </div>
+                    </div>
+                    <div class="path-step" id="step-4">
+                        <div class="step-number">4</div>
+                        <div class="step-title">
+                            <h3>Prompty - jak komunikować się z AI</h3>
+                        </div>
+                    </div>
+                    <div class="path-step" id="step-5">
+                        <div class="step-number">5</div>
+                        <div class="step-title">
+                            <h3>Etyka i bezpieczeństwo w AI</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step-contents">
+                    <div class="step-content" id="content-1">
+                        <h3>Czym jest sztuczna inteligencja?</h3>
+                        <p>Sztuczna inteligencja (AI) to dziedzina informatyki, która zajmuje się tworzeniem systemów zdolnych do wykonywania zadań wymagających ludzkiej inteligencji. Obejmuje to rozpoznawanie obrazów, przetwarzanie języka naturalnego, podejmowanie decyzji i uczenie się.</p>
+                        <p>AI ma swoje korzenie w latach 50. XX wieku, ale dopiero w ostatnich dekadach, dzięki zwiększonej mocy obliczeniowej i dostępności dużych zbiorów danych, nastąpił jej gwałtowny rozwój.</p>
+                        <p>Obecnie AI jest obecna w wielu aspektach naszego życia, od asystentów głosowych, przez rekomendacje w serwisach streamingowych, po zaawansowane systemy diagnostyki medycznej.</p>
+                        <a href="articles/basics/what-is-ai.html" class="btn btn-primary">Czytaj pełny artykuł</a>
+                    </div>
+                    <div class="step-content" id="content-2" style="display: none;">
+                        <h3>Rodzaje sztucznej inteligencji</h3>
+                        <p>Sztuczną inteligencję można podzielić na kilka kategorii:</p>
+                        <ul>
+                            <li><strong>AI wąska (ANI)</strong> - systemy zaprojektowane do wykonywania konkretnych zadań, np. rozpoznawanie twarzy czy tłumaczenie języków.</li>
+                            <li><strong>AI ogólna (AGI)</strong> - hipotetyczne systemy, które mogłyby wykonywać dowolne zadania intelektualne na poziomie człowieka.</li>
+                            <li><strong>AI superinteligentna (ASI)</strong> - hipotetyczne systemy, które przewyższałyby ludzkie zdolności we wszystkich dziedzinach.</li>
+                        </ul>
+                        <p>Obecnie większość systemów AI to AI wąska, która jest wyspecjalizowana w konkretnych zadaniach.</p>
+                        <a href="articles/basics/types-of-ai.html" class="btn btn-primary">Czytaj pełny artykuł</a>
+                    </div>
+                    <div class="step-content" id="content-3" style="display: none;">
+                        <h3>Narzędzia AI dla każdego</h3>
+                        <p>Istnieje wiele narzędzi AI dostępnych dla każdego, bez konieczności posiadania specjalistycznej wiedzy:</p>
+                        <ul>
+                            <li><strong>ChatGPT</strong> - asystent konwersacyjny oparty na modelu GPT.</li>
+                            <li><strong>Google Gemini</strong> - zaawansowany model AI od Google.</li>
+                            <li><strong>DALL-E, Midjourney</strong> - narzędzia do generowania obrazów.</li>
+                            <li><strong>Stable Audio</strong> - narzędzie do generowania muzyki.</li>
+                        </ul>
+                        <p>Te narzędzia mogą pomóc w tworzeniu treści, analizie danych, automatyzacji zadań i wielu innych zastosowaniach.</p>
+                        <a href="tools.html" class="btn btn-primary">Poznaj narzędzia AI</a>
+                    </div>
+                    <div class="step-content" id="content-4" style="display: none;">
+                        <h3>Prompty - jak komunikować się z AI</h3>
+                        <p>Prompt to polecenie lub zapytanie, które przekazujesz modelowi AI. Od jakości promptu zależy jakość odpowiedzi, którą otrzymasz.</p>
+                        <p>Dobre prompty powinny być:</p>
+                        <ul>
+                            <li><strong>Jasne i precyzyjne</strong> - określaj dokładnie, czego oczekujesz.</li>
+                            <li><strong>Kontekstowe</strong> - dostarczaj niezbędnego kontekstu.</li>
+                            <li><strong>Strukturyzowane</strong> - organizuj informacje w logiczny sposób.</li>
+                        </ul>
+                        <p>Nauka tworzenia efektywnych promptów to kluczowa umiejętność w pracy z AI.</p>
+                        <a href="articles/basics/prompts.html" class="btn btn-primary">Czytaj pełny artykuł</a>
+                    </div>
+                    <div class="step-content" id="content-5" style="display: none;">
+                        <h3>Etyka i bezpieczeństwo w AI</h3>
+                        <p>Wraz z rozwojem AI pojawiają się ważne kwestie etyczne i bezpieczeństwa:</p>
+                        <ul>
+                            <li><strong>Prywatność danych</strong> - jak chronić dane osobowe używane do trenowania modeli AI?</li>
+                            <li><strong>Stronniczość algorytmów</strong> - jak zapewnić, że systemy AI nie powielają ludzkich uprzedzeń?</li>
+                            <li><strong>Transparentność</strong> - jak zapewnić zrozumienie działania systemów AI?</li>
+                            <li><strong>Odpowiedzialność</strong> - kto ponosi odpowiedzialność za decyzje podejmowane przez AI?</li>
+                        </ul>
+                        <p>Świadomość tych wyzwań jest kluczowa dla odpowiedzialnego korzystania z AI.</p>
+                        <a href="articles/basics/ethics-safety.html" class="btn btn-primary">Czytaj pełny artykuł</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Basics Articles -->
+    <section class="page-content" id="basics">
+        <div class="container">
+            <h2 class="section-title">Artykuły z podstaw AI</h2>
+            <div class="featured-grid">
+                <div class="card">
+                    <img src="images/what-is-ai.jpg" alt="Czym jest sztuczna inteligencja" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Czym jest sztuczna inteligencja? Przewodnik dla początkujących</h3>
+                        <p class="card-text">Poznaj podstawowe pojęcia związane ze sztuczną inteligencją, historię jej rozwoju i wpływ na nasze codzienne życie.</p>
+                        <div class="card-footer">
+                            <span class="card-date">15 marca 2025</span>
+                            <a href="articles/basics/what-is-ai.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/types-of-ai.jpg" alt="Rodzaje sztucznej inteligencji" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Rodzaje sztucznej inteligencji - co warto wiedzieć na początek</h3>
+                        <p class="card-text">Poznaj różne rodzaje AI, od wąskiej do ogólnej, oraz różne metody uczenia maszynowego.</p>
+                        <div class="card-footer">
+                            <span class="card-date">18 marca 2025</span>
+                            <a href="articles/basics/types-of-ai.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/prompts.jpg" alt="Prompty - jak komunikować się z AI" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Prompty - jak efektywnie komunikować się z AI</h3>
+                        <p class="card-text">Dowiedz się, jak tworzyć efektywne prompty, które pozwolą Ci uzyskać najlepsze wyniki z modeli AI.</p>
+                        <div class="card-footer">
+                            <span class="card-date">22 marca 2025</span>
+                            <a href="articles/basics/prompts.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/ethics-safety.jpg" alt="Etyka i bezpieczeństwo w AI" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Etyka i bezpieczeństwo w AI - co każdy powinien wiedzieć</h3>
+                        <p class="card-text">Poznaj kluczowe kwestie etyczne i bezpieczeństwa związane z rozwojem i wykorzystaniem sztucznej inteligencji.</p>
+                        <div class="card-footer">
+                            <span class="card-date">25 marca 2025</span>
+                            <a href="articles/basics/ethics-safety.html" class="btn btn-primary">Czytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="page-content" id="faq">
+        <div class="container">
+            <h2 class="section-title">Najczęściej zadawane pytania</h2>
+            <div class="dictionary-container">
+                <div class="dictionary-term">
+                    <div class="term-title">
+                        <h3>Czy muszę znać programowanie, aby korzystać z AI?</h3>
+                    </div>
+                    <p>Nie, większość nowoczesnych narzędzi AI jest zaprojektowana tak, aby były dostępne dla osób bez wiedzy programistycznej. Narzędzia takie jak ChatGPT, Gemini czy DALL-E mają intuicyjne interfejsy, które pozwalają na interakcję poprzez zwykły tekst.</p>
+                </div>
+                <div class="dictionary-term">
+                    <div class="term-title">
+                        <h3>Jak zacząć naukę o sztucznej inteligencji?</h3>
+                    </div>
+                    <p>Najlepszym sposobem na rozpoczęcie nauki o AI jest zapoznanie się z podstawowymi pojęciami i koncepcjami, a następnie eksperymentowanie z dostępnymi narzędziami. Nasza ścieżka nauki na tej stronie jest dobrym punktem startowym. Możesz również skorzystać z darmowych kursów online, takich jak "AI for Everyone" od Google czy materiałów na platformach edukacyjnych.</p>
+                </div>
+                <div class="dictionary-term">
+                    <div class="term-title">
+                        <h3>Czy AI zastąpi ludzi w pracy?</h3>
+                    </div>
+                    <p>AI zmienia charakter wielu zawodów, automatyzując powtarzalne zadania, ale jednocześnie tworzy nowe możliwości i zawody. Zamiast całkowitego zastąpienia ludzi, AI częściej staje się narzędziem, które zwiększa produktywność i pozwala skupić się na bardziej kreatywnych i strategicznych aspektach pracy. Kluczem jest adaptacja i nauka współpracy z AI.</p>
+                </div>
+                <div class="dictionary-term">
+                    <div class="term-title">
+                        <h3>Jakie są ograniczenia obecnych systemów AI?</h3>
+                    </div>
+                    <p>Obecne systemy AI mają kilka istotnych ograniczeń: mogą generować nieprawdziwe informacje (halucynacje), mają ograniczoną wiedzę o świecie po dacie treningu, mogą powielać uprzedzenia obecne w danych treningowych, mają ograniczone zdolności rozumowania i nie posiadają prawdziwej świadomości czy zrozumienia kontekstu w sposób, w jaki robią to ludzie.</p>
+                </div>
+                <div class="dictionary-term">
+                    <div class="term-title">
+                        <h3>Jak tworzyć dobre prompty dla modeli AI?</h3>
+                    </div>
+                    <p>Dobre prompty powinny być jasne, precyzyjne i zawierać odpowiedni kontekst. Określ dokładnie, czego oczekujesz, podaj format odpowiedzi, dostarczaj przykłady, jeśli to możliwe, i iteracyjnie udoskonalaj swoje zapytania na podstawie otrzymanych odpowiedzi. Więcej szczegółów znajdziesz w naszym artykule o promptach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section class="page-content" id="quiz">
+        <div class="container">
+            <h2 class="section-title">Sprawdź swoją wiedzę</h2>
+            <div class="dictionary-container">
+                <p>Sprawdź swoją podstawową wiedzę o sztucznej inteligencji, rozwiązując poniższy quiz.</p>
+                <form class="quiz-form">
+                    <div class="quiz-question" data-correct="b">
+                        <h3>1. Czym jest sztuczna inteligencja?</h3>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q1" value="a">
+                                Program komputerowy, który może wykonywać tylko zaprogramowane wcześniej zadania
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q1" value="b">
+                                Dziedzina informatyki zajmująca się tworzeniem systemów zdolnych do wykonywania zadań wymagających ludzkiej inteligencji
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q1" value="c">
+                                Robot z ludzką świadomością
+                            </label>
+                        </div>
+                    </div>
+                    <div class="quiz-question" data-correct="a">
+                        <h3>2. Która z poniższych technologii NIE jest przykładem sztucznej inteligencji?</h3>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q2" value="a">
+                                Tradycyjna baza danych SQL
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q2" value="b">
+                                System rozpoznawania twarzy
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q2" value="c">
+                                Chatbot oparty na modelu językowym
+                            </label>
+                        </div>
+                    </div>
+                    <div class="quiz-question" data-correct="c">
+                        <h3>3. Co to jest prompt w kontekście AI?</h3>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q3" value="a">
+                                Nazwa modelu AI
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q3" value="b">
+                                Błąd w działaniu AI
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q3" value="c">
+                                Polecenie lub zapytanie przekazywane do modelu AI
+                            </label>
+                        </div>
+                    </div>
+                    <div class="quiz-question" data-correct="b">
+                        <h3>4. Jaka jest różnica między AI wąską a AI ogólną?</h3>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q4" value="a">
+                                AI wąska jest tańsza, a AI ogólna droższa
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q4" value="b">
+                                AI wąska jest wyspecjalizowana w konkretnych zadaniach, a AI ogólna mogłaby wykonywać dowolne zadania intelektualne na poziomie człowieka
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q4" value="c">
+                                AI wąska działa tylko na komputerach, a AI ogólna na wszystkich urządzeniach
+                            </label>
+                        </div>
+                    </div>
+                    <div class="quiz-question" data-correct="c">
+                        <h3>5. Co to jest "halucynacja" w kontekście modeli językowych AI?</h3>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q5" value="a">
+                                Zdolność AI do tworzenia obrazów
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q5" value="b">
+                                Błąd techniczny w działaniu modelu
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="radio" name="q5" value="c">
+                                Generowanie nieprawdziwych lub zmyślonych informacji przez model AI
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sprawdź wyniki</button>
+                    <div class="quiz-result" style="display: none;"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">ZroZoom <span>AI</span></div>
+                    <p>Blog edukacyjny poświęcony sztucznej inteligencji dla początkujących. Poznaj podstawy AI, praktyczne zastosowania i najnowsze narzędzia.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Nawigacja</h3>
+                    <ul>
+                        <li><a href="index.html">Strona główna</a></li>
+                        <li><a href="beginners.html">AI dla początkujących</a></li>
+                        <li><a href="tutorials.html">Praktyczne tutoriale</a></li>
+                        <li><a href="tools.html">Narzędzia AI</a></li>
+                        <li><a href="dictionary.html">Słownik pojęć</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">O nas</a></li>
+                        <li><a href="resources.html">Zasoby</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Zasoby</h3>
+                    <ul>
+                        <li><a href="resources.html#ebooks">E-booki</a></li>
+                        <li><a href="resources.html#templates">Szablony promptów</a></li>
+                        <li><a href="resources.html#checklists">Listy kontrolne</a></li>
+                        <li><a href="resources.html#external">Zewnętrzne zasoby</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Zapisz się do naszego newslettera, aby otrzymywać najnowsze artykuły i aktualizacje.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Twój adres e-mail" class="newsletter-input" required>
+                        <button type="submit" class="newsletter-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p>&copy; 2025 ZroZoom AI. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

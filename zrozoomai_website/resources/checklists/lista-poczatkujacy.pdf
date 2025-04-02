@@ -1,0 +1,138 @@
+# Lista kontrolna dla początkujących w AI
+
+## Wprowadzenie
+
+Ta lista kontrolna została stworzona, aby pomóc osobom rozpoczynającym swoją przygodę ze sztuczną inteligencją. Zawiera ona kluczowe kroki, zasoby i wskazówki, które pomogą Ci systematycznie zdobywać wiedzę i umiejętności w dziedzinie AI.
+
+## Podstawy teoretyczne
+
+- [ ] Zapoznaj się z podstawowymi pojęciami AI
+  - [ ] Przeczytaj wprowadzenie do sztucznej inteligencji
+  - [ ] Poznaj różnicę między AI, uczeniem maszynowym i głębokim uczeniem
+  - [ ] Zapoznaj się z historią rozwoju AI
+
+- [ ] Zrozum różne rodzaje AI
+  - [ ] AI wąska vs AI ogólna
+  - [ ] Uczenie nadzorowane, nienadzorowane i przez wzmacnianie
+  - [ ] Sieci neuronowe i głębokie uczenie
+
+- [ ] Poznaj kluczowe zastosowania AI
+  - [ ] Przetwarzanie języka naturalnego (NLP)
+  - [ ] Widzenie komputerowe
+  - [ ] Generatywna AI
+  - [ ] Systemy rekomendacji
+  - [ ] Robotyka i systemy autonomiczne
+
+## Praktyczne umiejętności
+
+- [ ] Zacznij korzystać z dostępnych narzędzi AI
+  - [ ] Załóż konto w ChatGPT, Gemini lub Claude
+  - [ ] Eksperymentuj z różnymi promptami
+  - [ ] Wypróbuj narzędzia do generowania obrazów (DALL-E, Midjourney)
+  - [ ] Poznaj narzędzia do edycji i przetwarzania tekstu oparte na AI
+
+- [ ] Naucz się tworzyć efektywne prompty
+  - [ ] Poznaj podstawowe zasady tworzenia promptów
+  - [ ] Przećwicz różne techniki promptowania
+  - [ ] Stwórz własną bibliotekę skutecznych promptów
+
+- [ ] Zastosuj AI w codziennych zadaniach
+  - [ ] Użyj AI do pomocy w pisaniu
+  - [ ] Wykorzystaj AI do analizy danych
+  - [ ] Zastosuj AI do organizacji informacji
+  - [ ] Użyj AI do nauki nowych umiejętności
+
+## Rozwój techniczny (opcjonalnie)
+
+- [ ] Zdobądź podstawy programowania
+  - [ ] Naucz się podstaw Pythona
+  - [ ] Zapoznaj się z bibliotekami do analizy danych (pandas, numpy)
+  - [ ] Poznaj podstawy wizualizacji danych
+
+- [ ] Zapoznaj się z podstawami uczenia maszynowego
+  - [ ] Ukończ kurs wprowadzający do uczenia maszynowego
+  - [ ] Przećwicz proste projekty ML
+  - [ ] Poznaj popularne biblioteki ML (scikit-learn, TensorFlow, PyTorch)
+
+## Zasoby edukacyjne
+
+- [ ] Znajdź odpowiednie materiały edukacyjne
+  - [ ] Wybierz 2-3 książki o AI dla początkujących
+  - [ ] Zapisz się na kurs online (Coursera, edX, Udemy)
+  - [ ] Znajdź blogi i newslettery o AI
+  - [ ] Subskrybuj podcasty o AI i nowych technologiach
+
+- [ ] Dołącz do społeczności
+  - [ ] Znajdź grupy dyskusyjne online
+  - [ ] Dołącz do lokalnych meetupów lub wydarzeń
+  - [ ] Śledź ekspertów AI w mediach społecznościowych
+
+## Etyka i bezpieczeństwo AI
+
+- [ ] Zapoznaj się z podstawowymi zagadnieniami etycznymi
+  - [ ] Poznaj problemy stronniczości i dyskryminacji w AI
+  - [ ] Zrozum kwestie prywatności danych
+  - [ ] Zapoznaj się z zagadnieniami bezpieczeństwa AI
+
+- [ ] Wypracuj odpowiedzialne podejście do AI
+  - [ ] Naucz się krytycznie oceniać wyniki generowane przez AI
+  - [ ] Poznaj granice możliwości obecnych systemów AI
+  - [ ] Zrozum swoją rolę w odpowiedzialnym korzystaniu z AI
+
+## Plan nauki
+
+- [ ] Stwórz harmonogram nauki
+  - [ ] Ustal realistyczne cele krótko- i długoterminowe
+  - [ ] Zaplanuj regularne sesje nauki
+  - [ ] Wyznacz kamienie milowe do osiągnięcia
+
+- [ ] Monitoruj swoje postępy
+  - [ ] Prowadź dziennik nauki
+  - [ ] Regularnie przeglądaj i aktualizuj swój plan
+  - [ ] Świętuj osiągnięcie kamieni milowych
+
+## Praktyczne projekty
+
+- [ ] Zrealizuj własne projekty z wykorzystaniem AI
+  - [ ] Stwórz prostego chatbota
+  - [ ] Zautomatyzuj powtarzalne zadania przy pomocy AI
+  - [ ] Stwórz własną bibliotekę promptów dla konkretnych zadań
+  - [ ] Zbuduj portfolio projektów AI
+
+## Następne kroki
+
+- [ ] Określ swoją ścieżkę specjalizacji
+  - [ ] Wybierz obszar AI, który najbardziej Cię interesuje
+  - [ ] Pogłęb wiedzę w wybranym obszarze
+  - [ ] Rozważ formalne wykształcenie lub certyfikaty
+
+- [ ] Zastosuj AI w swojej pracy lub hobby
+  - [ ] Zidentyfikuj obszary, gdzie AI może pomóc
+  - [ ] Wprowadź narzędzia AI do swojego workflow
+  - [ ] Mierz wpływ zastosowania AI na efektywność
+
+## Wskazówki dla początkujących
+
+1. **Zacznij od praktyki** - Najlepszym sposobem nauki jest eksperymentowanie z dostępnymi narzędziami AI.
+
+2. **Nie bój się eksperymentować** - Testuj różne podejścia, prompty i narzędzia, aby znaleźć to, co działa najlepiej.
+
+3. **Ucz się na błędach** - Analizuj przypadki, gdy AI nie daje oczekiwanych rezultatów, to cenna lekcja.
+
+4. **Łącz teorię z praktyką** - Równoważ naukę teoretyczną z praktycznymi zastosowaniami.
+
+5. **Bądź na bieżąco** - Dziedzina AI rozwija się bardzo szybko, śledź najnowsze trendy i narzędzia.
+
+6. **Współpracuj z innymi** - Wymiana doświadczeń z innymi uczącymi się przyspiesza naukę.
+
+7. **Bądź cierpliwy** - Nauka AI to maraton, nie sprint. Konsekwentna praca przynosi najlepsze rezultaty.
+
+8. **Zachowaj krytyczne myślenie** - Zawsze weryfikuj informacje generowane przez AI i zachowaj zdrowy sceptycyzm.
+
+9. **Znajdź mentora** - Jeśli to możliwe, znajdź osobę z doświadczeniem w AI, która może Cię pokierować.
+
+10. **Ciesz się procesem** - Nauka AI może być fascynująca, ciesz się odkrywaniem nowych możliwości!
+
+---
+
+© 2025 ZroZoom AI. Wszelkie prawa zastrzeżone.

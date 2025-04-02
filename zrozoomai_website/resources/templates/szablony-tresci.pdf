@@ -1,0 +1,296 @@
+# Szablony promptów do tworzenia treści
+
+## Wprowadzenie
+
+Ten dokument zawiera zbiór szablonów promptów, które pomogą Ci tworzyć różne rodzaje treści przy pomocy modeli AI takich jak ChatGPT, Google Gemini czy Claude. Każdy szablon zawiera strukturę promptu oraz przykład jego zastosowania.
+
+## Jak korzystać z szablonów
+
+1. Wybierz odpowiedni szablon dla rodzaju treści, którą chcesz stworzyć
+2. Skopiuj szablon do interfejsu modelu AI
+3. Zastąp elementy w nawiasach klamrowych `{}` własnymi informacjami
+4. Dostosuj prompt do swoich potrzeb, dodając lub usuwając elementy
+5. Wyślij prompt do modelu AI
+6. W razie potrzeby iteracyjnie udoskonalaj prompt na podstawie otrzymanych wyników
+
+## Szablony do tworzenia artykułów
+
+### Artykuł informacyjny
+
+```
+Napisz artykuł informacyjny na temat {temat}. Artykuł powinien być napisany {ton} tonem, mieć około {liczba} słów i zawierać następujące sekcje:
+
+1. Wprowadzenie wyjaśniające czym jest {temat} i dlaczego jest ważny
+2. Historia i rozwój {temat}
+3. Kluczowe koncepcje i zasady związane z {temat}
+4. Praktyczne zastosowania {temat} w codziennym życiu
+5. Wyzwania i kontrowersje związane z {temat}
+6. Przyszłość {temat}
+7. Podsumowanie najważniejszych punktów
+
+Artykuł powinien być napisany językiem zrozumiałym dla {poziom wiedzy} czytelnika. Użyj konkretnych przykładów, danych statystycznych i cytatów ekspertów, aby wzbogacić treść.
+```
+
+**Przykład:**
+```
+Napisz artykuł informacyjny na temat uczenia maszynowego. Artykuł powinien być napisany profesjonalnym, ale przystępnym tonem, mieć około 1000 słów i zawierać następujące sekcje:
+
+1. Wprowadzenie wyjaśniające czym jest uczenie maszynowe i dlaczego jest ważne
+2. Historia i rozwój uczenia maszynowego
+3. Kluczowe koncepcje i zasady związane z uczeniem maszynowym
+4. Praktyczne zastosowania uczenia maszynowego w codziennym życiu
+5. Wyzwania i kontrowersje związane z uczeniem maszynowym
+6. Przyszłość uczenia maszynowego
+7. Podsumowanie najważniejszych punktów
+
+Artykuł powinien być napisany językiem zrozumiałym dla początkującego czytelnika. Użyj konkretnych przykładów, danych statystycznych i cytatów ekspertów, aby wzbogacić treść.
+```
+
+### Poradnik krok po kroku
+
+```
+Napisz praktyczny poradnik krok po kroku na temat "{temat}". Poradnik powinien być skierowany do {grupa docelowa} i zawierać:
+
+1. Wprowadzenie wyjaśniające, dlaczego {temat} jest ważny i jakie korzyści przyniesie czytelnikowi
+2. Lista potrzebnych narzędzi/materiałów/zasobów
+3. Szczegółowe instrukcje podzielone na {liczba} jasno określonych kroków
+4. Dla każdego kroku:
+   - Dokładny opis co należy zrobić
+   - Wyjaśnienie dlaczego ten krok jest ważny
+   - Potencjalne problemy i jak je rozwiązać
+5. Wskazówki i porady dla początkujących
+6. Najczęstsze błędy i jak ich unikać
+7. Podsumowanie z zachętą do działania
+
+Użyj przyjaznego, zachęcającego tonu i pisz w drugiej osobie (ty, twój). Dodaj praktyczne przykłady i, jeśli to możliwe, sugestie alternatywnych podejść.
+```
+
+**Przykład:**
+```
+Napisz praktyczny poradnik krok po kroku na temat "Jak stworzyć własnego chatbota bez kodowania". Poradnik powinien być skierowany do właścicieli małych firm bez wiedzy technicznej i zawierać:
+
+1. Wprowadzenie wyjaśniające, dlaczego chatbot jest ważny i jakie korzyści przyniesie czytelnikowi
+2. Lista potrzebnych narzędzi/materiałów/zasobów
+3. Szczegółowe instrukcje podzielone na 7 jasno określonych kroków
+4. Dla każdego kroku:
+   - Dokładny opis co należy zrobić
+   - Wyjaśnienie dlaczego ten krok jest ważny
+   - Potencjalne problemy i jak je rozwiązać
+5. Wskazówki i porady dla początkujących
+6. Najczęstsze błędy i jak ich unikać
+7. Podsumowanie z zachętą do działania
+
+Użyj przyjaznego, zachęcającego tonu i pisz w drugiej osobie (ty, twój). Dodaj praktyczne przykłady i, jeśli to możliwe, sugestie alternatywnych podejść.
+```
+
+## Szablony do mediów społecznościowych
+
+### Post na LinkedIn
+
+```
+Napisz profesjonalny post na LinkedIn na temat {temat}. Post powinien:
+
+1. Zaczynać się od przyciągającego uwagę pierwszego zdania
+2. Zawierać {liczba} kluczowych punktów lub spostrzeżeń na temat {temat}
+3. Dzielić się osobistym doświadczeniem lub opinią związaną z {temat}
+4. Zawierać praktyczną poradę lub wskazówkę, którą czytelnicy mogą od razu zastosować
+5. Kończyć się pytaniem zachęcającym do interakcji
+6. Zawierać 3-5 odpowiednich hashtagów
+
+Post powinien mieć {ton} ton i być skierowany do {grupa docelowa}. Całkowita długość nie powinna przekraczać 1300 znaków.
+```
+
+**Przykład:**
+```
+Napisz profesjonalny post na LinkedIn na temat wykorzystania sztucznej inteligencji w marketingu. Post powinien:
+
+1. Zaczynać się od przyciągającego uwagę pierwszego zdania
+2. Zawierać 3 kluczowe punkty lub spostrzeżenia na temat wykorzystania AI w marketingu
+3. Dzielić się osobistym doświadczeniem lub opinią związaną z wykorzystaniem AI w marketingu
+4. Zawierać praktyczną poradę lub wskazówkę, którą czytelnicy mogą od razu zastosować
+5. Kończyć się pytaniem zachęcającym do interakcji
+6. Zawierać 3-5 odpowiednich hashtagów
+
+Post powinien mieć profesjonalny, ale konwersacyjny ton i być skierowany do specjalistów marketingu. Całkowita długość nie powinna przekraczać 1300 znaków.
+```
+
+### Post na Instagram
+
+```
+Napisz angażujący post na Instagram na temat {temat}. Post powinien:
+
+1. Zaczynać się od przyciągającego uwagę zdania lub pytania
+2. Zawierać krótką, inspirującą historię lub refleksję związaną z {temat}
+3. Oferować wartość dla czytelnika (porada, inspiracja, informacja)
+4. Być napisany w {ton} tonie
+5. Kończyć się wezwaniem do działania (zachęta do komentowania, udostępniania, zapisywania)
+6. Zawierać 5-10 odpowiednich hashtagów
+
+Post powinien być skierowany do {grupa docelowa} i mieć maksymalnie 2200 znaków (limit Instagrama).
+```
+
+**Przykład:**
+```
+Napisz angażujący post na Instagram na temat nauki nowych umiejętności. Post powinien:
+
+1. Zaczynać się od przyciągającego uwagę zdania lub pytania
+2. Zawierać krótką, inspirującą historię lub refleksję związaną z nauką nowych umiejętności
+3. Oferować wartość dla czytelnika (porada, inspiracja, informacja)
+4. Być napisany w inspirującym, motywującym tonie
+5. Kończyć się wezwaniem do działania (zachęta do komentowania, udostępniania, zapisywania)
+6. Zawierać 5-10 odpowiednich hashtagów
+
+Post powinien być skierowany do młodych profesjonalistów i mieć maksymalnie 2200 znaków (limit Instagrama).
+```
+
+## Szablony do e-maili
+
+### E-mail sprzedażowy
+
+```
+Napisz przekonujący e-mail sprzedażowy promujący {produkt/usługa}. E-mail powinien:
+
+1. Mieć przyciągający uwagę temat, który wzbudza ciekawość
+2. Zaczynać się od silnego otwarcia, które identyfikuje problem lub potrzebę odbiorcy
+3. Przedstawiać {produkt/usługa} jako rozwiązanie tego problemu
+4. Zawierać {liczba} kluczowych korzyści lub cech {produkt/usługa}
+5. Zawierać dowody społeczne (np. opinie klientów, statystyki)
+6. Adresować potencjalne obiekcje
+7. Zawierać ograniczenie czasowe lub inny element tworzący poczucie pilności
+8. Kończyć się jasnym wezwaniem do działania
+
+E-mail powinien być napisany {ton} tonem, skierowany do {grupa docelowa} i mieć długość około {liczba} słów.
+```
+
+**Przykład:**
+```
+Napisz przekonujący e-mail sprzedażowy promujący kurs online "Podstawy AI dla biznesu". E-mail powinien:
+
+1. Mieć przyciągający uwagę temat, który wzbudza ciekawość
+2. Zaczynać się od silnego otwarcia, które identyfikuje problem lub potrzebę odbiorcy
+3. Przedstawiać kurs "Podstawy AI dla biznesu" jako rozwiązanie tego problemu
+4. Zawierać 3 kluczowe korzyści lub cechy kursu
+5. Zawierać dowody społeczne (np. opinie klientów, statystyki)
+6. Adresować potencjalne obiekcje
+7. Zawierać ograniczenie czasowe lub inny element tworzący poczucie pilności
+8. Kończyć się jasnym wezwaniem do działania
+
+E-mail powinien być napisany profesjonalnym, ale entuzjastycznym tonem, skierowany do właścicieli małych i średnich firm i mieć długość około 300 słów.
+```
+
+### E-mail z prośbą o współpracę
+
+```
+Napisz profesjonalny e-mail z prośbą o {rodzaj współpracy} do {odbiorca}. E-mail powinien:
+
+1. Mieć jasny, konkretny temat
+2. Zaczynać się od odpowiedniego powitania i krótkiego przedstawienia się
+3. Wyjaśniać, dlaczego kontaktujesz się właśnie z tym odbiorcą (co Cię w nim zainteresowało)
+4. Jasno przedstawiać propozycję współpracy i jej wartość dla odbiorcy
+5. Zawierać krótkie informacje o Twoim doświadczeniu/firmie/projekcie
+6. Proponować konkretne następne kroki
+7. Kończyć się uprzejmym zakończeniem i pełnym podpisem
+
+E-mail powinien być napisany {ton} tonem, być zwięzły i szanować czas odbiorcy.
+```
+
+**Przykład:**
+```
+Napisz profesjonalny e-mail z prośbą o wystąpienie jako gość w podcaście do eksperta AI. E-mail powinien:
+
+1. Mieć jasny, konkretny temat
+2. Zaczynać się od odpowiedniego powitania i krótkiego przedstawienia się
+3. Wyjaśniać, dlaczego kontaktujesz się właśnie z tym ekspertem (co Cię w nim zainteresowało)
+4. Jasno przedstawiać propozycję współpracy i jej wartość dla odbiorcy
+5. Zawierać krótkie informacje o Twoim podcaście (tematyka, zasięg, poprzedni goście)
+6. Proponować konkretne następne kroki (możliwe terminy, długość rozmowy, format)
+7. Kończyć się uprzejmym zakończeniem i pełnym podpisem
+
+E-mail powinien być napisany profesjonalnym, ale przyjaznym tonem, być zwięzły i szanować czas odbiorcy.
+```
+
+## Szablony do opisów produktów
+
+### Opis produktu e-commerce
+
+```
+Napisz przekonujący opis produktu dla {nazwa produktu}. Opis powinien:
+
+1. Zaczynać się od przyciągającego uwagę nagłówka
+2. Zawierać krótkie wprowadzenie (1-2 zdania) przedstawiające główną korzyść produktu
+3. Zawierać listę {liczba} kluczowych cech produktu, każda przedstawiona jako korzyść dla klienta
+4. Zawierać szczegółowe specyfikacje techniczne produktu
+5. Adresować potencjalne obiekcje lub pytania klientów
+6. Zawierać rekomendowane zastosowania lub scenariusze użycia
+7. Kończyć się wezwaniem do działania
+
+Opis powinien być napisany {ton} tonem, używać języka zorientowanego na korzyści i być skierowany do {grupa docelowa}.
+```
+
+**Przykład:**
+```
+Napisz przekonujący opis produktu dla "AI Writer Pro - asystent pisania oparty na sztucznej inteligencji". Opis powinien:
+
+1. Zaczynać się od przyciągającego uwagę nagłówka
+2. Zawierać krótkie wprowadzenie (1-2 zdania) przedstawiające główną korzyść produktu
+3. Zawierać listę 5 kluczowych cech produktu, każda przedstawiona jako korzyść dla klienta
+4. Zawierać szczegółowe specyfikacje techniczne produktu
+5. Adresować potencjalne obiekcje lub pytania klientów
+6. Zawierać rekomendowane zastosowania lub scenariusze użycia
+7. Kończyć się wezwaniem do działania
+
+Opis powinien być napisany entuzjastycznym, profesjonalnym tonem, używać języka zorientowanego na korzyści i być skierowany do twórców treści, blogerów i marketerów.
+```
+
+## Szablony do prezentacji
+
+### Struktura prezentacji biznesowej
+
+```
+Stwórz szczegółowy konspekt prezentacji biznesowej na temat {temat}. Prezentacja powinna:
+
+1. Zaczynać się od slajdu tytułowego z przyciągającym uwagę tytułem
+2. Zawierać agendę prezentacji
+3. Zawierać wprowadzenie przedstawiające problem lub wyzwanie
+4. Zawierać {liczba} głównych sekcji, każda z 3-5 slajdami
+5. Dla każdego slajdu podaj:
+   - Tytuł slajdu
+   - Główne punkty do omówienia (w formie punktów)
+   - Sugestie dotyczące wizualizacji (wykresy, obrazy, diagramy)
+6. Zawierać sekcję podsumowującą kluczowe wnioski
+7. Kończyć się slajdem z wezwaniem do działania i danymi kontaktowymi
+
+Prezentacja powinna być skierowana do {grupa docelowa} i trwać około {czas} minut.
+```
+
+**Przykład:**
+```
+Stwórz szczegółowy konspekt prezentacji biznesowej na temat "Implementacja AI w małych i średnich przedsiębiorstwach". Prezentacja powinna:
+
+1. Zaczynać się od slajdu tytułowego z przyciągającym uwagę tytułem
+2. Zawierać agendę prezentacji
+3. Zawierać wprowadzenie przedstawiające problem lub wyzwanie
+4. Zawierać 4 główne sekcje, każda z 3-5 slajdami
+5. Dla każdego slajdu podaj:
+   - Tytuł slajdu
+   - Główne punkty do omówienia (w formie punktów)
+   - Sugestie dotyczące wizualizacji (wykresy, obrazy, diagramy)
+6. Zawierać sekcję podsumowującą kluczowe wnioski
+7. Kończyć się slajdem z wezwaniem do działania i danymi kontaktowymi
+
+Prezentacja powinna być skierowana do właścicieli i menedżerów małych i średnich firm i trwać około 20 minut.
+```
+
+## Dodatkowe wskazówki
+
+1. **Bądź konkretny** - Im bardziej szczegółowy jest Twój prompt, tym lepsze wyniki otrzymasz.
+2. **Określ format** - Jasno określ, w jakim formacie chcesz otrzymać odpowiedź.
+3. **Określ ton** - Wskaż, czy treść ma być formalna, konwersacyjna, entuzjastyczna, itp.
+4. **Określ grupę docelową** - Wskaż, dla kogo przeznaczona jest treść.
+5. **Iteruj** - Jeśli nie jesteś zadowolony z wyniku, zmodyfikuj prompt i spróbuj ponownie.
+6. **Używaj przykładów** - Jeśli to możliwe, podaj przykład pożądanego wyniku.
+7. **Bądź etyczny** - Nie używaj AI do tworzenia treści wprowadzających w błąd, szkodliwych lub nieetycznych.
+
+---
+
+© 2025 ZroZoom AI. Wszelkie prawa zastrzeżone.
